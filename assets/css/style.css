@@ -78,29 +78,18 @@ header li {
 }
 
 .bg-index {
-    background: url("../images/dragon-bg.jpg") no-repeat;
+    background: url("../images/bg/dragon-bg.jpg") no-repeat;
     height: 780px;
 }
 
 .bg-dragons {
-    background: url("../images/dragon-bg3.jpg") no-repeat;
+    background: url("../images/bg/dragon-bg3.jpg") no-repeat;
     height: auto;
 }
 
-.species {
-    width: 70%;
-    margin: 30px auto;
-    padding: 20px;
-    background-color: rgba(0,0,0, 0.85);
-    border: 1px solid white;
-    font-weight: 300;
-    line-height: 1.4;
-    text-align: justify;
-}
-
 .bg-care {
-    background: url("../images/dragon-bg2.jpg") no-repeat;
-    height: 1278px;
+    background: url("../images/bg/dragon-bg2.jpg") no-repeat;
+    height: auto;
 }
 
 .main-bg {
@@ -124,6 +113,26 @@ h1 {
     font-weight: 400;
 }
 
+h3 {
+    font-size: 27px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+h4 {
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
 .centred-header {
     display: block;
     width: 100%;
@@ -131,6 +140,49 @@ h1 {
     text-align: center;
     color: #fafafa;
     background-color: rgba(0,0,0, 0.7);
+}
+
+.info-box {
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(0,0,0, 0.85);
+    border: 1px solid white;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.info-pic {
+    width: auto;
+    height: 150px;
+    border: 1px solid white;
+}
+
+.left {
+    float: left;
+    margin: 15px 20px 10px 0;
+}
+
+.right {
+    float: right;
+    margin: 15px 0 10px 20px;
+}
+
+.species-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.grid-item img {
+    width: 200px;
+    height: 150px;
+    border: 1px solid white;
 }
 
 /* ----------------------- FOOTER */
